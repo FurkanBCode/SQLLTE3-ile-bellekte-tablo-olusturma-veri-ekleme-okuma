@@ -3,7 +3,7 @@ db = sqlite3.connect(':memory:')
 c = db.cursor()
 c.execute('''CREATE TABLE kullanici(id INTEGER PRIMARY KEY, ad TEXT, telefon TEXT)''')
 kullanicilar = [
-    ('Ahmet', '5555544554'), 
+    ('Furkan', '5555544554'), 
     ('Hayri', '5567544554'), 
     ('Hüseyin', '5578944554'), 
     ('Recep',' 5555588754')
